@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Montserrat:wght@200&display=swap");
+
+
+body{
+    background-image: url(images/mountainsss.jpeg);
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+}
+
+.leftContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:80vh;
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat';
+
+}
+
+.shadow{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: "Cinzel";
+    background-color: rgba(0, 0, 0, 0.527);
+}
+
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #F3F3F3;
+    width: 100vh;
+    height: 100vh;
+    font-family: 'Montserrat';
+}
+
+.section1{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+.formSection{
+    height: auto;
+    background-color: white;
+}
+
+.formContainer{
+    padding: 50px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.formContainer p{
+    font-size: 18px;
+}
+
+.formCell{
+    display: flex;
+    flex-direction: column;
+}
+.formContainer fieldset{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    font-size: 13px;
+    color: black;
+    border: 0;
+    gap: 5em;
+    padding-bottom: 15px;
+}
+.buttonSection{
+    height: auto;
+}
+
+input{
+    border-radius:5px;
+    border: 1px solid gray;
+    width: 250px;
+    height: 25px;
+}
+
+input:invalid{
+    border-color: red;
+}
+
+.buttonSection{
+    padding: 50px;
+    padding-top: 25px;
+    font-size: 15px;
+}
+button{
+    width: 200px;
+    height: 50px;
+    background-color: #1E80C1;
+    border: 1px solid #1E80C1;
+    border-radius: 5px;
+    color: white;
+    font-family: "Montserrat";
+}
+
